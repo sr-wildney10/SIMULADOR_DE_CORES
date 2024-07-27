@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Cores</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Simulador de Cores</h1>
+    <div class="color-picker">
+        <label for="red">Vermelho:</label>
+        <input type="range" id="red" min="0" max="255" value="0">
+        
+        <label for="green">Verde:</label>
+        <input type="range" id="green" min="0" max="255" value="0">
+        
+        <label for="blue">Azul:</label>
+        <input type="range" id="blue" min="0" max="255" value="0">
+    </div>
+
+    <div class="color-display" id="colorDisplay"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
