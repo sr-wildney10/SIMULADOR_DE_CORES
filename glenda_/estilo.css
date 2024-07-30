@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f0f0f0;
+    background-color: #ec8e8e;
 }
 
 .color-picker {
@@ -13,10 +13,14 @@ input[type="range"] {
 }
 
 .color-display {
-    width: 100%;
+    
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    margin-top: 100px;
+    width: 45%;
     height: 200px;
-    margin-top: 20px;
-    border: 1px solid #ccc;
+    border: 3px solid #ccc;
     display: inline-block;
     transition: background-color 0.3s;
 }
